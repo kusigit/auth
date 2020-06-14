@@ -3,7 +3,7 @@
 // https://github.com/benlaplanche/cf-basic-auth-route-service/tree/master/servicebroker
 
 const cookie = require('cookie');
-const redis = require('redis');
+const redis = require('redis-client');
 
 module.exports = async (req, res, next) => {
   const cookies = cookie.parse(req.headers.cookie || 'sid=');
