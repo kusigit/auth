@@ -1,19 +1,12 @@
 {
   "name": "auth",
-  "version": "0.0.2",
-  "description": "auth",
-  "author": "Markus Fürer",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "github:kusigit/auth"
-  },
+  "version": "0.0.1",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "redis-client": "github:kusigit/redis-client",
+    "redis": "github:kusigit/redis",
     "cookie": "0.4.1"
   }
 }
