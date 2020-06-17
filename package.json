@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "redis-client": "github:kusigit/redis",
+    "redis-client": "github:kusigit/redis-client",
     "cookie": "0.4.0"
   }
 }
