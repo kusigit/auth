@@ -2,7 +2,7 @@
   "name": "auth",
   "version": "0.0.1",
   "dependencies": {
-    "redis": "github:kusigit/redis",
+    "redis-client": "github:kusigit/redis-client",
     "cookie": "0.4.1"
   }
 }
